@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: source_postgres
+    schema: staging
+    tables:
+      - name: channel_basic_a2
+        identifier: channel_basic_a2
+        description: "channel_basic_a2" 
+      
+      - name: channel_demographics_a1
+        identifier: channel_demographics_a1
+        description: "channel_demographics_a1"
+      
+      - name: channel_combined_a2
+        identifier: channel_combined_a2
+        description: "channel_combined_a2"
+
+   
+
+
+
+ 
